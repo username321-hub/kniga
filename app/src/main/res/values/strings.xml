@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">kniga</string>
+    <string name="quetion_text" translatable="false">chto-to</string>
+    <string name="true_button" translatable="false">True</string>
+    <string name="False" translatable="false">false</string>
+    <string name="corc_toast" translatable="false">Correct!</string>
+    <string name="incr_toast" translatable="false">Incorrect!</string>
+</resources>
