@@ -12,25 +12,45 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:padding="24dp"
+        android:layout_gravity="center"
         android:text="@string/quetion_text"/>
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="50dp"
         android:orientation="horizontal">
 
         <Button
-            android:layout_marginLeft="125dp"
             android:id="@+id/True"
-            android:layout_width="wrap_content"
+            android:layout_width="98dp"
             android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
             android:text="@string/true_button" />
 
         <Button
-            android:layout_marginRight="100dp"
             android:id="@+id/False"
-            android:layout_width="wrap_content"
+            android:layout_width="100dp"
             android:layout_height="wrap_content"
+            android:layout_marginLeft="112.5dp"
+            android:layout_marginRight="100dp"
             android:text="@string/False" />
+
     </LinearLayout>
+
+    <ImageButton
+        android:rotationY="180"
+        android:id="@+id/imageButton2"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        app:srcCompat="@drawable/ic_baseline_arrow_forward_ios_24"
+        tools:ignore="VectorDrawableCompat" />
+
+    <ImageButton
+        android:id="@+id/Next"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        app:srcCompat="@drawable/ic_baseline_arrow_forward_ios_24"
+        tools:ignore="VectorDrawableCompat" />
+
 
 </androidx.appcompat.widget.LinearLayoutCompat>
